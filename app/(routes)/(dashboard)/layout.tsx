@@ -46,7 +46,7 @@ export default function Layout({ children }: LayoutProps) {
                             Hi, {user?.name}
                         </span>
                     </div>
-                    <p className="text-sm text-gray-500 ml-11">
+                    <p className="text-sm text-gray-500">
                         {user?.company?.name}
                     </p>
                 </div>
